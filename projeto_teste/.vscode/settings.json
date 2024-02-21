@@ -13,5 +13,6 @@
     ],
     "idf.port": "/dev/ttyACM0",
     "idf.pythonBinPath": "/home/thallys/.espressif/python_env/idf5.2_py3.10_env/bin/python",
-    "idf.toolsPath": "/home/thallys/.espressif"
+    "idf.toolsPath": "/home/thallys/.espressif",
+    "idf.flashType": "UART"
 }

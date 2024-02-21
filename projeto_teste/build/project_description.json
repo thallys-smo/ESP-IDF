@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "projeto_teste",
-    "project_version":    "1",
+    "project_version":    "7043b1c-dirty",
     "project_path":       "/home/thallys/Projetos/Esp_32/projeto_teste",
     "idf_path":           "/home/thallys/esp/esp-idf",
     "build_dir":          "/home/thallys/Projetos/Esp_32/projeto_teste/build",
