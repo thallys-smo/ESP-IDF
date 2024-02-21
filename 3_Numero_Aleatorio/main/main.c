@@ -14,14 +14,11 @@ int dado(){
     int random = esp_random();
     int num_positivo = abs(random);
     int num_dado = (num_positivo % 6) +1;
-
     return num_dado; 
-
 }
 
 void app_main(void)
-{
-    
+{    
     while(1){
         int i = esp_random();
         vTaskDelay(1000/portTICK_PERIOD_MS);
@@ -29,7 +26,6 @@ void app_main(void)
         ESP_LOGI(TAG, "Numero Aleatório: %d", i);
         // Implementação da função dado, utilizando a a função aleatória
         ESP_LOGE(TAG, "Dado Aleatório: %d", dado());
-    }
-    
+    }    
 }
 
