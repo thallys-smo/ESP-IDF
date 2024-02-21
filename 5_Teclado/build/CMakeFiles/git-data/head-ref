@@ -1,0 +1,14 @@
+0000000000000000000000000000000000000000 d7b8b91e95f3b91f18f8909eb9808d357939837c Thallys Oliveira <thallys.smo@gmail.com> 1708473552 -0300	branch: Created from master
+d7b8b91e95f3b91f18f8909eb9808d357939837c 7043b1c7408511911116612fd791fbc538531ec4 Thallys Oliveira <thallys.smo@gmail.com> 1708473860 -0300	commit: Adicionando um README
+7043b1c7408511911116612fd791fbc538531ec4 f93907fd74f46e75f89b1f12d406442d71302654 Thallys Oliveira <thallys.smo@gmail.com> 1708476793 -0300	commit: Logging e suas funcionalidades
+f93907fd74f46e75f89b1f12d406442d71302654 2a67709d7f69411b42b93f5b447282c7a2e51706 Thallys Oliveira <thallys.smo@gmail.com> 1708477022 -0300	commit: Delay, iniciando o estudo
+2a67709d7f69411b42b93f5b447282c7a2e51706 d58bf16610610cc70090ce01f260c19dc8196905 Thallys Oliveira <thallys.smo@gmail.com> 1708477228 -0300	commit: Deletando projeto_teste
+d58bf16610610cc70090ce01f260c19dc8196905 37ce9a3d5a495d329de419354f8f70647e921115 Thallys Oliveira <thallys.smo@gmail.com> 1708478273 -0300	commit: Delay funcional, contador implementado
+37ce9a3d5a495d329de419354f8f70647e921115 f51cf4c553fb409495799f7628334715ba7294a2 Thallys Oliveira <thallys.smo@gmail.com> 1708479591 -0300	commit: Dado implementado, mas não funcional
+f51cf4c553fb409495799f7628334715ba7294a2 a79e715ade62c1f361fb1ee629c536d8561dff81 Thallys Oliveira <thallys.smo@gmail.com> 1708479765 -0300	commit (amend): Dado implementado, mas não funcional.
+a79e715ade62c1f361fb1ee629c536d8561dff81 26b9bd8aadc24da9a449971f38afcfc4c9f5c83e Thallys Oliveira <thallys.smo@gmail.com> 1708479939 -0300	pull --rebase origin main (finish): refs/heads/main onto f51cf4c553fb409495799f7628334715ba7294a2
+26b9bd8aadc24da9a449971f38afcfc4c9f5c83e 8b6d4eb1907272e8305f6907028ed39040198c76 Thallys Oliveira <thallys.smo@gmail.com> 1708480210 -0300	commit: Dado implementado e funcional
+8b6d4eb1907272e8305f6907028ed39040198c76 fe17de9809cafa4b4b2f937e73a0f57ab79cda37 Thallys Oliveira <thallys.smo@gmail.com> 1708548213 -0300	commit: Função Dado Aleatório Implementada
+fe17de9809cafa4b4b2f937e73a0f57ab79cda37 ac1ca5c52a9dca80cb0cd76c7525f7df8d4a1860 Thallys Oliveira <thallys.smo@gmail.com> 1708548316 -0300	commit: Função Dado Aleatório Implementada
+ac1ca5c52a9dca80cb0cd76c7525f7df8d4a1860 bd8667c21ac3d1fb6573d0fb6670d94313e293a1 Thallys Oliveira <thallys.smo@gmail.com> 1708548525 -0300	commit: Implementação do Blink
+bd8667c21ac3d1fb6573d0fb6670d94313e293a1 1f855ca1a6b9de5c42f74dd82a98d60562333d4c Thallys Oliveira <thallys.smo@gmail.com> 1708556327 -0300	commit: Implementação do Blink com Logi
