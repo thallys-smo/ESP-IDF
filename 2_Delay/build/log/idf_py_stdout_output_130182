@@ -1,0 +1,359 @@
+ׁ�ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15532
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (29) boot: ESP-IDF v5.2 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Feb 20 2024 22:09:02[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (33) boot: chip revision: v1.0[0m
+[0;32mI (36) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (41) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (46) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (50) boot: Enabling RNG early entropy source...[0m
+[0;32mI (56) boot: Partition Table:[0m
+[0;32mI (59) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (66) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (74) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (81) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (89) boot: End of partition table[0m
+[0;32mI (93) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=094f4h ( 38132) map[0m
+[0;32mI (115) esp_image: segment 1: paddr=0001951c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (118) esp_image: segment 2: paddr=0001b730 vaddr=40080000 size=048e8h ( 18664) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=133e8h ( 78824) map[0m
+[0;32mI (156) esp_image: segment 4: paddr=00033410 vaddr=400848e8 size=07e34h ( 32308) load[0m
+[0;32mI (175) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (175) boot: Disabling RNG early entropy source...[0m
+[0;32mI (187) cpu_start: Multicore app[0m
+[0;32mI (196) cpu_start: Pro cpu start user code[0m
+[0;32mI (196) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (196) cpu_start: Application information:[0m
+[0;32mI (199) cpu_start: Project name:     2_Delay[0m
+[0;32mI (204) cpu_start: App version:      d58bf16-dirty[0m
+[0;32mI (209) cpu_start: Compile time:     Feb 20 2024 22:08:52[0m
+[0;32mI (215) cpu_start: ELF file SHA256:  4105b3e2a...[0m
+[0;32mI (221) cpu_start: ESP-IDF:          v5.2[0m
+[0;32mI (225) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (230) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (235) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (240) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (247) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (253) heap_init: At 3FFB2AD0 len 0002D530 (181 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (265) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (272) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (279) spi_flash: detected chip: generic[0m
+[0;32mI (283) spi_flash: flash io: dio[0m
+[0;33mW (287) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (300) main_task: Started on CPU0[0m
+[0;32mI (310) main_task: Calling app_main()[0m
+[0;32mI (1310) TAG: no loop 0[0m
+[0;32mI (2310) TAG: no loop 1[0m
+[0;32mI (3310) TAG: no loop 2[0m
+[0;32mI (4310) TAG: no loop 3[0m
+[0;32mI (5310) TAG: no loop 4[0m
+[0;32mI (6310) TAG: no loop 5[0m
+[0;32mI (7310) TAG: no loop 6[0m
+[0;32mI (8310) TAG: no loop 7[0m
+[0;32mI (9310) TAG: no loop 8[0m
+[0;32mI (10310) TAG: no loop 9[0m
+[0;32mI (11310) TAG: no loop 10[0m
+[0;32mI (12310) TAG: no loop 11[0m
+[0;32mI (13310) TAG: no loop 12[0m
+[0;32mI (14310) TAG: no loop 13[0m
+[0;32mI (15310) TAG: no loop 14[0m
+[0;32mI (16310) TAG: no loop 15[0m
+[0;32mI (17310) TAG: no loop 16[0m
+[0;32mI (18310) TAG: no loop 17[0m
+[0;32mI (19310) TAG: no loop 18[0m
+[0;32mI (20310) TAG: no loop 19[0m
+[0;32mI (21310) TAG: no loop 20[0m
+[0;32mI (22310) TAG: no loop 21[0m
+[0;32mI (23310) TAG: no loop 22[0m
+[0;32mI (24310) TAG: no loop 23[0m
+[0;32mI (25310) TAG: no loop 24[0m
+[0;32mI (26310) TAG: no loop 25[0m
+[0;32mI (27310) TAG: no loop 26[0m
+[0;32mI (28310) TAG: no loop 27[0m
+[0;32mI (29310) TAG: no loop 28[0m
+[0;32mI (30310) TAG: no loop 29[0m
+[0;32mI (31310) TAG: no loop 30[0m
+[0;32mI (32310) TAG: no loop 31[0m
+[0;32mI (33310) TAG: no loop 32[0m
+[0;32mI (34310) TAG: no loop 33[0m
+[0;32mI (35310) TAG: no loop 34[0m
+[0;32mI (36310) TAG: no loop 35[0m
+[0;32mI (37310) TAG: no loop 36[0m
+[0;32mI (38310) TAG: no loop 37[0m
+[0;32mI (39310) TAG: no loop 38[0m
+[0;32mI (40310) TAG: no loop 39[0m
+[0;32mI (41310) TAG: no loop 40[0m
+[0;32mI (42310) TAG: no loop 41[0m
+[0;32mI (43310) TAG: no loop 42[0m
+[0;32mI (44310) TAG: no loop 43[0m
+[0;32mI (45310) TAG: no loop 44[0m
+[0;32mI (46310) TAG: no loop 45[0m
+[0;32mI (47310) TAG: no loop 46[0m
+[0;32mI (48310) TAG: no loop 47[0m
+[0;32mI (49310) TAG: no loop 48[0m
+[0;32mI (50310) TAG: no loop 49[0m
+[0;32mI (51310) TAG: no loop 50[0m
+[0;32mI (52310) TAG: no loop 51[0m
+[0;32mI (53310) TAG: no loop 52[0m
+[0;32mI (54310) TAG: no loop 53[0m
+[0;32mI (55310) TAG: no loop 54[0m
+[0;32mI (56310) TAG: no loop 55[0m
+[0;32mI (57310) TAG: no loop 56[0m
+[0;32mI (58310) TAG: no loop 57[0m
+[0;32mI (59310) TAG: no loop 58[0m
+[0;32mI (60310) TAG: no loop 59[0m
+[0;32mI (61310) TAG: no loop 60[0m
+[0;32mI (62310) TAG: no loop 61[0m
+[0;32mI (63310) TAG: no loop 62[0m
+[0;32mI (64310) TAG: no loop 63[0m
+[0;32mI (65310) TAG: no loop 64[0m
+[0;32mI (66310) TAG: no loop 65[0m
+[0;32mI (67310) TAG: no loop 66[0m
+[0;32mI (68310) TAG: no loop 67[0m
+[0;32mI (69310) TAG: no loop 68[0m
+[0;32mI (70310) TAG: no loop 69[0m
+[0;32mI (71310) TAG: no loop 70[0m
+[0;32mI (72310) TAG: no loop 71[0m
+[0;32mI (73310) TAG: no loop 72[0m
+[0;32mI (74310) TAG: no loop 73[0m
+[0;32mI (75310) TAG: no loop 74[0m
+[0;32mI (76310) TAG: no loop 75[0m
+[0;32mI (77310) TAG: no loop 76[0m
+[0;32mI (78310) TAG: no loop 77[0m
+[0;32mI (79310) TAG: no loop 78[0m
+[0;32mI (80310) TAG: no loop 79[0m
+[0;32mI (81310) TAG: no loop 80[0m
+[0;32mI (82310) TAG: no loop 81[0m
+[0;32mI (83310) TAG: no loop 82[0m
+[0;32mI (84310) TAG: no loop 83[0m
+[0;32mI (85310) TAG: no loop 84[0m
+[0;32mI (86310) TAG: no loop 85[0m
+[0;32mI (87310) TAG: no loop 86[0m
+[0;32mI (88310) TAG: no loop 87[0m
+[0;32mI (89310) TAG: no loop 88[0m
+[0;32mI (90310) TAG: no loop 89[0m
+[0;32mI (91310) TAG: no loop 90[0m
+[0;32mI (92310) TAG: no loop 91[0m
+[0;32mI (93310) TAG: no loop 92[0m
+[0;32mI (94310) TAG: no loop 93[0m
+[0;32mI (95310) TAG: no loop 94[0m
+[0;32mI (96310) TAG: no loop 95[0m
+[0;32mI (97310) TAG: no loop 96[0m
+[0;32mI (98310) TAG: no loop 97[0m
+[0;32mI (99310) TAG: no loop 98[0m
+[0;32mI (100310) TAG: no loop 99[0m
+[0;32mI (101310) TAG: no loop 100[0m
+[0;32mI (102310) TAG: no loop 101[0m
+[0;32mI (103310) TAG: no loop 102[0m
+[0;32mI (104310) TAG: no loop 103[0m
+[0;32mI (105310) TAG: no loop 104[0m
+[0;32mI (106310) TAG: no loop 105[0m
+[0;32mI (107310) TAG: no loop 106[0m
+[0;32mI (108310) TAG: no loop 107[0m
+[0;32mI (109310) TAG: no loop 108[0m
+[0;32mI (110310) TAG: no loop 109[0m
+[0;32mI (111310) TAG: no loop 110[0m
+[0;32mI (112310) TAG: no loop 111[0m
+[0;32mI (113310) TAG: no loop 112[0m
+[0;32mI (114310) TAG: no loop 113[0m
+[0;32mI (115310) TAG: no loop 114[0m
+[0;32mI (116310) TAG: no loop 115[0m
+[0;32mI (117310) TAG: no loop 116[0m
+[0;32mI (118310) TAG: no loop 117[0m
+[0;32mI (119310) TAG: no loop 118[0m
+[0;32mI (120310) TAG: no loop 119[0m
+[0;32mI (121310) TAG: no loop 120[0m
+[0;32mI (122310) TAG: no loop 121[0m
+[0;32mI (123310) TAG: no loop 122[0m
+[0;32mI (124310) TAG: no loop 123[0m
+[0;32mI (125310) TAG: no loop 124[0m
+[0;32mI (126310) TAG: no loop 125[0m
+[0;32mI (127310) TAG: no loop 126[0m
+[0;32mI (128310) TAG: no loop 127[0m
+[0;32mI (129310) TAG: no loop 128[0m
+[0;32mI (130310) TAG: no loop 129[0m
+[0;32mI (131310) TAG: no loop 130[0m
+[0;32mI (132310) TAG: no loop 131[0m
+[0;32mI (133310) TAG: no loop 132[0m
+[0;32mI (134310) TAG: no loop 133[0m
+[0;32mI (135310) TAG: no loop 134[0m
+[0;32mI (136310) TAG: no loop 135[0m
+[0;32mI (137310) TAG: no loop 136[0m
+[0;32mI (138310) TAG: no loop 137[0m
+[0;32mI (139310) TAG: no loop 138[0m
+[0;32mI (140310) TAG: no loop 139[0m
+[0;32mI (141310) TAG: no loop 140[0m
+[0;32mI (142310) TAG: no loop 141[0m
+[0;32mI (143310) TAG: no loop 142[0m
+[0;32mI (144310) TAG: no loop 143[0m
+[0;32mI (145310) TAG: no loop 144[0m
+[0;32mI (146310) TAG: no loop 145[0m
+[0;32mI (147310) TAG: no loop 146[0m
+[0;32mI (148310) TAG: no loop 147[0m
+[0;32mI (149310) TAG: no loop 148[0m
+[0;32mI (150310) TAG: no loop 149[0m
+[0;32mI (151310) TAG: no loop 150[0m
+[0;32mI (152310) TAG: no loop 151[0m
+[0;32mI (153310) TAG: no loop 152[0m
+[0;32mI (154310) TAG: no loop 153[0m
+[0;32mI (155310) TAG: no loop 154[0m
+[0;32mI (156310) TAG: no loop 155[0m
+[0;32mI (157310) TAG: no loop 156[0m
+[0;32mI (158310) TAG: no loop 157[0m
+[0;32mI (159310) TAG: no loop 158[0m
+[0;32mI (160310) TAG: no loop 159[0m
+[0;32mI (161310) TAG: no loop 160[0m
+[0;32mI (162310) TAG: no loop 161[0m
+[0;32mI (163310) TAG: no loop 162[0m
+[0;32mI (164310) TAG: no loop 163[0m
+[0;32mI (165310) TAG: no loop 164[0m
+[0;32mI (166310) TAG: no loop 165[0m
+[0;32mI (167310) TAG: no loop 166[0m
+[0;32mI (168310) TAG: no loop 167[0m
+[0;32mI (169310) TAG: no loop 168[0m
+[0;32mI (170310) TAG: no loop 169[0m
+[0;32mI (171310) TAG: no loop 170[0m
+[0;32mI (172310) TAG: no loop 171[0m
+[0;32mI (173310) TAG: no loop 172[0m
+[0;32mI (174310) TAG: no loop 173[0m
+[0;32mI (175310) TAG: no loop 174[0m
+[0;32mI (176310) TAG: no loop 175[0m
+[0;32mI (177310) TAG: no loop 176[0m
+[0;32mI (178310) TAG: no loop 177[0m
+[0;32mI (179310) TAG: no loop 178[0m
+[0;32mI (180310) TAG: no loop 179[0m
+[0;32mI (181310) TAG: no loop 180[0m
+[0;32mI (182310) TAG: no loop 181[0m
+[0;32mI (183310) TAG: no loop 182[0m
+[0;32mI (184310) TAG: no loop 183[0m
+[0;32mI (185310) TAG: no loop 184[0m
+[0;32mI (186310) TAG: no loop 185[0m
+[0;32mI (187310) TAG: no loop 186[0m
+[0;32mI (188310) TAG: no loop 187[0m
+[0;32mI (189310) TAG: no loop 188[0m
+[0;32mI (190310) TAG: no loop 189[0m
+[0;32mI (191310) TAG: no loop 190[0m
+[0;32mI (192310) TAG: no loop 191[0m
+[0;32mI (193310) TAG: no loop 192[0m
+[0;32mI (194310) TAG: no loop 193[0m
+[0;32mI (195310) TAG: no loop 194[0m
+[0;32mI (196310) TAG: no loop 195[0m
+[0;32mI (197310) TAG: no loop 196[0m
+[0;32mI (198310) TAG: no loop 197[0m
+[0;32mI (199310) TAG: no loop 198[0m
+[0;32mI (200310) TAG: no loop 199[0m
+[0;32mI (201310) TAG: no loop 200[0m
+[0;32mI (202310) TAG: no loop 201[0m
+[0;32mI (203310) TAG: no loop 202[0m
+[0;32mI (204310) TAG: no loop 203[0m
+[0;32mI (205310) TAG: no loop 204[0m
+[0;32mI (206310) TAG: no loop 205[0m
+[0;32mI (207310) TAG: no loop 206[0m
+[0;32mI (208310) TAG: no loop 207[0m
+[0;32mI (209310) TAG: no loop 208[0m
+[0;32mI (210310) TAG: no loop 209[0m
+[0;32mI (211310) TAG: no loop 210[0m
+[0;32mI (212310) TAG: no loop 211[0m
+[0;32mI (213310) TAG: no loop 212[0m
+[0;32mI (214310) TAG: no loop 213[0m
+[0;32mI (215310) TAG: no loop 214[0m
+[0;32mI (216310) TAG: no loop 215[0m
+[0;32mI (217310) TAG: no loop 216[0m
+[0;32mI (218310) TAG: no loop 217[0m
+[0;32mI (219310) TAG: no loop 218[0m
+[0;32mI (220310) TAG: no loop 219[0m
+[0;32mI (221310) TAG: no loop 220[0m
+[0;32mI (222310) TAG: no loop 221[0m
+[0;32mI (223310) TAG: no loop 222[0m
+[0;32mI (224310) TAG: no loop 223[0m
+[0;32mI (225310) TAG: no loop 224[0m
+[0;32mI (226310) TAG: no loop 225[0m
+[0;32mI (227310) TAG: no loop 226[0m
+[0;32mI (228310) TAG: no loop 227[0m
+[0;32mI (229310) TAG: no loop 228[0m
+[0;32mI (230310) TAG: no loop 229[0m
+[0;32mI (231310) TAG: no loop 230[0m
+[0;32mI (232310) TAG: no loop 231[0m
+[0;32mI (233310) TAG: no loop 232[0m
+[0;32mI (234310) TAG: no loop 233[0m
+[0;32mI (235310) TAG: no loop 234[0m
+[0;32mI (236310) TAG: no loop 235[0m
+[0;32mI (237310) TAG: no loop 236[0m
+[0;32mI (238310) TAG: no loop 237[0m
+[0;32mI (239310) TAG: no loop 238[0m
+[0;32mI (240310) TAG: no loop 239[0m
+[0;32mI (241310) TAG: no loop 240[0m
+[0;32mI (242310) TAG: no loop 241[0m
+[0;32mI (243310) TAG: no loop 242[0m
+[0;32mI (244310) TAG: no loop 243[0m
+[0;32mI (245310) TAG: no loop 244[0m
+[0;32mI (246310) TAG: no loop 245[0m
+[0;32mI (247310) TAG: no loop 246[0m
+[0;32mI (248310) TAG: no loop 247[0m
+[0;32mI (249310) TAG: no loop 248[0m
+[0;32mI (250310) TAG: no loop 249[0m
+[0;32mI (251310) TAG: no loop 250[0m
+[0;32mI (252310) TAG: no loop 251[0m
+[0;32mI (253310) TAG: no loop 252[0m
+[0;32mI (254310) TAG: no loop 253[0m
+[0;32mI (255310) TAG: no loop 254[0m
+[0;32mI (256310) TAG: no loop 255[0m
+[0;32mI (257310) TAG: no loop 256[0m
+[0;32mI (258310) TAG: no loop 257[0m
+[0;32mI (259310) TAG: no loop 258[0m
+[0;32mI (260310) TAG: no loop 259[0m
+[0;32mI (261310) TAG: no loop 260[0m
+[0;32mI (262310) TAG: no loop 261[0m
+[0;32mI (263310) TAG: no loop 262[0m
+[0;32mI (264310) TAG: no loop 263[0m
+[0;32mI (265310) TAG: no loop 264[0m
+[0;32mI (266310) TAG: no loop 265[0m
+[0;32mI (267310) TAG: no loop 266[0m
+[0;32mI (268310) TAG: no loop 267[0m
+[0;32mI (269310) TAG: no loop 268[0m
+[0;32mI (270310) TAG: no loop 269[0m
+[0;32mI (271310) TAG: no loop 270[0m
+[0;32mI (272310) TAG: no loop 271[0m
+[0;32mI (273310) TAG: no loop 272[0m
+[0;32mI (274310) TAG: no loop 273[0m
+[0;32mI (275310) TAG: no loop 274[0m
+[0;32mI (276310) TAG: no loop 275[0m
+[0;32mI (277310) TAG: no loop 276[0m
+[0;32mI (278310) TAG: no loop 277[0m
+[0;32mI (279310) TAG: no loop 278[0m
+[0;32mI (280310) TAG: no loop 279[0m
+[0;32mI (281310) TAG: no loop 280[0m
+[0;32mI (282310) TAG: no loop 281[0m
+[0;32mI (283310) TAG: no loop 282[0m
+[0;32mI (284310) TAG: no loop 283[0m
+[0;32mI (285310) TAG: no loop 284[0m
+[0;32mI (286310) TAG: no loop 285[0m
+[0;32mI (287310) TAG: no loop 286[0m
+[0;32mI (288310) TAG: no loop 287[0m
+[0;32mI (289310) TAG: no loop 288[0m
+[0;32mI (290310) TAG: no loop 289[0m
+[0;32mI (291310) TAG: no loop 290[0m
+[0;32mI (292310) TAG: no loop 291[0m
+[0;32mI (293310) TAG: no loop 292[0m
+[0;32mI (294310) TAG: no loop 293[0m
+[0;32mI (295310) TAG: no loop 294[0m
+[0;32mI (296310) TAG: no loop 295[0m
+[0;32mI (297310) TAG: no loop 296[0m
+[0;32mI (298310) TAG: no loop 297[0m
+[0;32mI (299310) TAG: no loop 298[0m
+[0;32mI (300310) TAG: no loop 299[0m
+[0;32mI (301310) TAG: no loop 300[0m
+[0;32mI (302310) TAG: no loop 301[0m
+[0;32mI (303310) TAG: no loop 302[0m
+[0;32mI (304310) TAG: no loop 303[0m

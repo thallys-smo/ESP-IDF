@@ -1,0 +1,19 @@
+[1/13] Linking C static library esp-idf/mqtt/libmqtt.a
+[2/13] Linking C static library esp-idf/spiffs/libspiffs.a
+[3/13] Linking C static library esp-idf/wifi_provisioning/libwifi_provisioning.a
+[4/13] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[5/13] Performing build step for 'bootloader'
+[1/1] cd /home/thallys/Projetos/Esp_32/2_Delay/build/bootloader/esp-idf/esptool_py && /home/thallys/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/thallys/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/thallys/Projetos/Esp_32/2_Delay/build/bootloader/bootloader.bin
+Bootloader binary size 0x6850 bytes. 0x7b0 bytes (7%) free.
+[6/11] Linking C static library esp-idf/main/libmain.a
+[7/11] Generating ld/sections.ld
+[8/11] Building C object CMakeFiles/2_Delay.elf.dir/project_elf_src_esp32.c.obj
+[9/11] Linking CXX executable 2_Delay.elf
+[10/11] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/thallys/Projetos/Esp_32/2_Delay/build/2_Delay.bin
+[11/11] cd /home/thallys/Projetos/Esp_32/2_Delay/build/esp-idf/esptool_py && /home/thallys/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/thallys/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/thallys/Projetos/Esp_32/2_Delay/build/partition_table/partition-table.bin /home/thallys/Projetos/Esp_32/2_Delay/build/2_Delay.bin
+2_Delay.bin binary size 0x2b270 bytes. Smallest app partition is 0x100000 bytes. 0xd4d90 bytes (83%) free.
