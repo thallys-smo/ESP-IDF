@@ -10,9 +10,11 @@
 
 void app_main(void)
 {
+    
     while(1){
+        int i = esp_random();
         vTaskDelay(1000/portTICK_PERIOD_MS);
-        ESP_LOGI(TAG, "numero aleatorio: %d", esp_random());
+        ESP_LOGI(TAG, "numero aleatorio: %d", i);
     }
     
 }

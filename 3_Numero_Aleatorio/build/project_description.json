@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "3_Numero_Aleatorio",
-    "project_version":    "37ce9a3-dirty",
+    "project_version":    "26b9bd8-dirty",
     "project_path":       "/home/thallys/Projetos/Esp_32/3_Numero_Aleatorio",
     "idf_path":           "/home/thallys/esp/esp-idf",
     "build_dir":          "/home/thallys/Projetos/Esp_32/3_Numero_Aleatorio/build",
