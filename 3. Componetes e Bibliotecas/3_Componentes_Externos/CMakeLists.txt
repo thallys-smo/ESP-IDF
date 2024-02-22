@@ -3,6 +3,7 @@
 # The following five lines of boilerplate have to be in your project's
 # CMakeLists in this exact order for cmake to work correctly
 cmake_minimum_required(VERSION 3.16)
-
+# Lembrar que o comando para colocar o Componentes é set(EXTRA_COMPONENT_DIRS "...diretoria da pasta componentes")
+set(EXTRA_COMPONENT_DIRS "/home/thallys/Projetos/Esp_32/3. Componetes e Bibliotecas/3_Componentes_Externos/calculadora")
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(3_Componentes_Externos)

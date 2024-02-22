@@ -1,4 +1,4 @@
-# Install script for directory: /home/thallys/Projetos/Esp_32/3. Componetes e Bibliotecas/3_Componentes_Externos/components/calculadora
+# Install script for directory: /home/thallys/Projetos/Esp_32/3. Componetes e Bibliotecas/3_Componentes_Externos/calculadora
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

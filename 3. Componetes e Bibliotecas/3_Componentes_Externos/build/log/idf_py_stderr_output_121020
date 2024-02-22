@@ -1,0 +1,8 @@
+CMake Error at /home/thallys/esp/esp-idf/tools/cmake/project.cmake:407 (message):
+  Directory specified in EXTRA_COMPONENT_DIRS doesn't exist:
+  /home/thallys/Projetos/Esp_32/3.
+Call Stack (most recent call first):
+  /home/thallys/esp/esp-idf/tools/cmake/project.cmake:491 (__project_init)
+  CMakeLists.txt:9 (project)
+
+
