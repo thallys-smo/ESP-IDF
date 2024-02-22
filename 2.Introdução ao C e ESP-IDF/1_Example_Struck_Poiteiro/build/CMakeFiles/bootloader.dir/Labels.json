@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/thallys/Projetos/Esp_32/2.Introdu\u00e7\u00e3o ao C e ESP-IDF/1_Example_Struck_Poiteiro/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/home/thallys/Projetos/Esp_32/2.Introdu\u00e7\u00e3o ao C e ESP-IDF/1_Example_Struck_Poiteiro/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/home/thallys/Projetos/Esp_32/2.Introdu\u00e7\u00e3o ao C e ESP-IDF/1_Example_Struck_Poiteiro/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/home/thallys/Projetos/Esp_32/2.Introdu\u00e7\u00e3o ao C e ESP-IDF/1_Example_Struck_Poiteiro/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "/home/thallys/Projetos/Esp_32/2.Introdu\u00e7\u00e3o ao C e ESP-IDF/1_Example_Struck_Poiteiro/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/home/thallys/Projetos/Esp_32/2.Introdu\u00e7\u00e3o ao C e ESP-IDF/1_Example_Struck_Poiteiro/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/home/thallys/Projetos/Esp_32/2.Introdu\u00e7\u00e3o ao C e ESP-IDF/1_Example_Struck_Poiteiro/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/home/thallys/Projetos/Esp_32/2.Introdu\u00e7\u00e3o ao C e ESP-IDF/1_Example_Struck_Poiteiro/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/home/thallys/Projetos/Esp_32/2.Introdu\u00e7\u00e3o ao C e ESP-IDF/1_Example_Struck_Poiteiro/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/home/thallys/Projetos/Esp_32/2.Introdu\u00e7\u00e3o ao C e ESP-IDF/1_Example_Struck_Poiteiro/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}
