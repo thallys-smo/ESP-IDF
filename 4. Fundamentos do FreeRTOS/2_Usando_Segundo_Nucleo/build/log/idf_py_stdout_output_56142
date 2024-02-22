@@ -1,0 +1,5 @@
+[1/4] cd "/home/thallys/Projetos/Esp_32/4. Fundamentos do FreeRTOS/2_Usando_Segundo_Nucleo/build/esp-idf/esptool_py" && /home/thallys/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/thallys/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/thallys/Projetos/Esp_32/4.\ Fundamentos\ do\ FreeRTOS/2_Usando_Segundo_Nucleo/build/partition_table/partition-table.bin /home/thallys/Projetos/Esp_32/4.\ Fundamentos\ do\ FreeRTOS/2_Usando_Segundo_Nucleo/build/2_Usando_Segundo_Nucleo.bin
+2_Usando_Segundo_Nucleo.bin binary size 0x2b310 bytes. Smallest app partition is 0x100000 bytes. 0xd4cf0 bytes (83%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd "/home/thallys/Projetos/Esp_32/4. Fundamentos do FreeRTOS/2_Usando_Segundo_Nucleo/build/bootloader/esp-idf/esptool_py" && /home/thallys/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/thallys/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/thallys/Projetos/Esp_32/4.\ Fundamentos\ do\ FreeRTOS/2_Usando_Segundo_Nucleo/build/bootloader/bootloader.bin
+Bootloader binary size 0x6850 bytes. 0x7b0 bytes (7%) free.

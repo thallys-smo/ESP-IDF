@@ -1,0 +1,1 @@
+# Exemplo: Utilizando Dois Núcleo da Esp32
