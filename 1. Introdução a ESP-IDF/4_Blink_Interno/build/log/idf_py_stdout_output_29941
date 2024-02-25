@@ -1,0 +1,213 @@
+�&��ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15532
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (29) boot: ESP-IDF v5.2 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Feb 25 2024 10:46:51[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (33) boot: chip revision: v3.0[0m
+[0;32mI (37) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (42) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (46) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (51) boot: Enabling RNG early entropy source...[0m
+[0;32mI (56) boot: Partition Table:[0m
+[0;32mI (60) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (67) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (75) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (82) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (90) boot: End of partition table[0m
+[0;32mI (94) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=098a4h ( 39076) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=000198cc vaddr=3ffb0000 size=02254h (  8788) load[0m
+[0;32mI (119) esp_image: segment 2: paddr=0001bb28 vaddr=40080000 size=044f0h ( 17648) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13a1ch ( 80412) map[0m
+[0;32mI (158) esp_image: segment 4: paddr=00033a44 vaddr=400844f0 size=0822ch ( 33324) load[0m
+[0;32mI (177) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (177) boot: Disabling RNG early entropy source...[0m
+[0;32mI (189) cpu_start: Multicore app[0m
+[0;32mI (197) cpu_start: Pro cpu start user code[0m
+[0;32mI (197) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (198) cpu_start: Application information:[0m
+[0;32mI (201) cpu_start: Project name:     4_Blink_Interno[0m
+[0;32mI (206) cpu_start: App version:      8aa5f02-dirty[0m
+[0;32mI (212) cpu_start: Compile time:     Feb 25 2024 10:46:40[0m
+[0;32mI (218) cpu_start: ELF file SHA256:  2a3fab010...[0m
+[0;32mI (223) cpu_start: ESP-IDF:          v5.2[0m
+[0;32mI (228) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (232) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (237) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (242) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (249) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (255) heap_init: At 3FFB2B18 len 0002D4E8 (181 KiB): DRAM[0m
+[0;32mI (262) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (268) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (274) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (282) spi_flash: detected chip: generic[0m
+[0;32mI (285) spi_flash: flash io: dio[0m
+[0;33mW (289) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (303) main_task: Started on CPU0[0m
+[0;32mI (313) main_task: Calling app_main()[0m
+[0;32mI (1313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (2313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (3313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (4313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (5313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (6313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (7313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (8313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (9313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (10313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (11313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (12313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (13313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (14313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (15313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (16313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (17313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (18313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (19313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (20313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (21313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (22313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (23313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (24313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (25313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (26313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (27313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (28313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (29313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (30313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (31313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (32313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (33313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (34313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (35313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (36313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (37313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (38313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (39313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (40313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (41313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (42313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (43313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (44313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (45313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (46313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (47313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (48313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (49313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (50313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (51313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (52313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (53313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (54313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (55313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (56313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (57313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (58313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (59313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (60313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (61313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (62313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (63313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (64313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (65313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (66313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (67313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (68313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (69313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (70313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (71313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (72313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (73313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (74313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (75313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (76313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (77313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (78313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (79313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (80313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (81313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (82313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (83313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (84313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (85313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (86313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (87313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (88313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (89313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (90313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (91313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (92313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (93313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (94313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (95313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (96313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (97313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (98313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (99313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (100313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (101313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (102313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (103313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (104313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (105313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (106313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (107313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (108313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (109313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (110313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (111313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (112313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (113313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (114313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (115313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (116313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (117313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (118313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (119313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (120313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (121313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (122313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (123313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (124313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (125313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (126313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (127313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (128313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (129313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (130313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (131313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (132313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (133313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (134313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (135313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (136313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (137313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (138313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (139313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (140313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (141313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (142313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (143313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (144313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (145313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (146313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (147313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (148313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (149313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (150313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (151313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (152313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (153313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (154313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (155313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (156313) Blink: Valor do Nível Lógico: 0[0m
+[0;32mI (157313) Blink: Valor do Nível Lógico: 1[0m
+[0;32mI (158313) Blink: Valor do Nível Lógico: 0[0m

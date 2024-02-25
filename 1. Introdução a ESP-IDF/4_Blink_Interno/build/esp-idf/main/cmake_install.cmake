@@ -1,4 +1,4 @@
-# Install script for directory: /home/thallys/Projetos/Esp_32/4_Blink_Interno/main
+# Install script for directory: /home/thallys/Projetos/Esp_32/1. Introdução a ESP-IDF/4_Blink_Interno/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

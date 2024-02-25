@@ -1,4 +1,4 @@
-# Install script for directory: /home/thallys/Projetos/Esp_32/4_Blink_Interno
+# Install script for directory: /home/thallys/Projetos/Esp_32/1. Introdução a ESP-IDF/4_Blink_Interno
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/thallys/Projetos/Esp_32/4_Blink_Interno/build/esp-idf/cmake_install.cmake")
+  include("/home/thallys/Projetos/Esp_32/1. Introdução a ESP-IDF/4_Blink_Interno/build/esp-idf/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/thallys/Projetos/Esp_32/4_Blink_Interno/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/thallys/Projetos/Esp_32/1. Introdução a ESP-IDF/4_Blink_Interno/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

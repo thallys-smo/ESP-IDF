@@ -1,4 +1,4 @@
-/* * Data converted from /home/thallys/Projetos/Esp_32/4_Blink_Interno/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /home/thallys/Projetos/Esp_32/1. Introdução a ESP-IDF/4_Blink_Interno/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

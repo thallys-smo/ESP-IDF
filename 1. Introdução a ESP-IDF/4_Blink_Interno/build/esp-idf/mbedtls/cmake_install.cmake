@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/thallys/Projetos/Esp_32/4_Blink_Interno/build/esp-idf/mbedtls/mbedtls/cmake_install.cmake")
+  include("/home/thallys/Projetos/Esp_32/1. Introdução a ESP-IDF/4_Blink_Interno/build/esp-idf/mbedtls/mbedtls/cmake_install.cmake")
 endif()
 
